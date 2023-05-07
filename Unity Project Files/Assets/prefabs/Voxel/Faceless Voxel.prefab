@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4052662192832208692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4052662192832208714}
+  - component: {fileID: 4052662192832208715}
+  - component: {fileID: 3026077165560282144}
+  m_Layer: 0
+  m_Name: Faceless Voxel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4052662192832208714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4052662192832208692}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4052662192832208715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4052662192832208692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eacb4d58a74bb94b9ce4a82296d2e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xSize: 1
+  ySize: 1
+  zSize: 1
+  coords: {x: 0, y: 0, z: 0}
+  bounds: {x: 0, y: 0, z: 0}
+  data: {fileID: 3026077165560282144}
+  chunk: {fileID: 0}
+  northFace: {fileID: 0}
+  southFace: {fileID: 0}
+  eastFace: {fileID: 0}
+  westFace: {fileID: 0}
+  upFace: {fileID: 0}
+  downFace: {fileID: 0}
+  northFacePrefab: {fileID: 4120911216313807235, guid: c7842d97b198fd149903880802d3bdc2, type: 3}
+  southFacePrefab: {fileID: 4971566553273859537, guid: 49eadda48e15f8145a975a1a1326b6ac, type: 3}
+  eastFacePrefab: {fileID: 3086122666969123700, guid: 67627095b56f10841977293016b0a72c, type: 3}
+  westFacePrefab: {fileID: 6149067067422861691, guid: 02ba2552ebeeaba4798039f7b111b0e6, type: 3}
+  upFacePrefab: {fileID: 5496832442237602133, guid: 52c33d805ee153c44849aa868f85c65d, type: 3}
+  downFacePrefab: {fileID: 204514778470715641, guid: c28de666227260a4aa18c770cb4fa2d0, type: 3}
+--- !u!114 &3026077165560282144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4052662192832208692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c694c22cc4990d4488a182dd591d75a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  westVoxel: {fileID: 0}
+  eastVoxel: {fileID: 0}
+  southVoxel: {fileID: 0}
+  northVoxel: {fileID: 0}
+  downVoxel: {fileID: 0}
+  upVoxel: {fileID: 0}
+  block: {fileID: 11400000, guid: e490e84f72d67ce47bf9d1892d68bb17, type: 2}
+  exposedToSky: 0
+  sunLightLevel: 0
+  resultantLightLevel: 0
