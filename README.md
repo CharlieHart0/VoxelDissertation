@@ -5,4 +5,6 @@ Repository for my undergrad dissertation project, a voxel rendering and world ge
 
 [The Project Build Folder](/Built%20Project%20(Excecutable)) can be downloaded, and to run the game, run `Dissertation Project Voxel Rendering System.exe`
 
+Test Data/ Results can be found in [Test Data Folder](/Misc%20Files/Test%20Data) 
+
 A different repository was used during development, so the commit history here is not accurate.
